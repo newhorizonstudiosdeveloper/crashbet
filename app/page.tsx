@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import StatusScreenBrick from './StatusScreenBrick';
+import StatusScreenBrick from './types/components/StatusScreenBrick';
 
 export default function AdicionarSaldoPage() {
   const [valor, setValor] = useState('');
